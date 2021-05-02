@@ -34,10 +34,10 @@ Traffic_Sign_Classification_LeNet_v1_ipynb <- This notebook file is main file co
 TrafficSignNames.csv <- File listing different traffic-sign names associated with their class ID.
 ![image](https://user-images.githubusercontent.com/20278752/116826426-d5297580-ab8b-11eb-8c07-2b9078523640.png)
 
-Step 2 – Environment Setup:
+# Step 2 – Environment Setup:
 Note: Due to hardware limitation the author was not run model training on local machine due to not having a powerful GPU. Training CNN models are computationally expensive hence why the author relied upon ‘Gradiant Paperspace’ machine learning platform. They offered a cloud hosted GPU machine. This machine provided all the prerequisite libraries for machine learning, those libraries that were missing the author manually installed those libraries through Jupyter environment terminal using ‘pip’ command. 
 
-Method 1:
+## Method 1:
 
 As a result anaconda environment had not been used given hardware limitation however instructions below have been defined to allow testers to utilise anaconda if needed.
 For those who would like to run the Jupyter notebook on their local machine please use the following: 
@@ -52,7 +52,7 @@ conda env create -f environments.yml  # with CPU
 Notebook can be started as follows:
 jupyter notebook Traffic_Sign_Classification_LeNet_v1_ipynb
 
-Method 2:
+## Method 2:
 
 Gradiant Paperspace Notebook (TSDR_CNN_Project):
 https://console.paperspace.com/saffan-a-private-workspace/notebook/rgkpcibe3wkhu76
@@ -72,8 +72,6 @@ Once machine chosen then start machine instance (this will take 30 sec to 1 min 
 
 Open jupyter notebook terminal on ML platform then installs all pre-requisite library packages:
 
- 
-
 pip installs:
 -	pip install numpy
 -	pip install matplotlib
@@ -84,11 +82,11 @@ pip installs:
 -	pip install pandas
 -	pip install scikit-learn
 
-Step 3 – Downloading Dataset (How-To):
+# Step 3 – Downloading Dataset (How-To):
 Dataset used is from public-domain – this domain is from a research institute whom have a collection of the largest dataset available for traffic-sign images.
 https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/published-archive.html 
 
-# use wget or curl (enter commands into Terminal (Jupyter Environment)
+### use wget or curl (enter commands into Terminal (Jupyter Environment)
 - wget https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/GTSRB_Final_Training_Images.zip
 - unzip GTSRB_Final_Training_Images.zip
 - mv GTSRB/Final_Training data/
@@ -100,17 +98,6 @@ https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/published-a
 - wget https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/GTSRB_Final_Test_GT.zip
 - unzip GTSRB_Final_Test_GT.zip
 - mv GT-final_test.csv data/Final_Test/Images/
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Folder Structure
@@ -158,6 +145,4 @@ After that, a network is transformed into an estimator that can be used with Sci
 Step 4 – Final Disclaimer:
 Once all above steps have been completed you can simply open up the ‘Traffic_Sign_Classification_LeNet_v1.ipynb’ file and run the code segments top to bottom in order.
 Despite using a cloud hosted GPU model, training models are again computationally expensive they can often take 30 min to 6 hrs + each to run of course dependent on how complex the model becomes (more parameters, more epochs) all require more time. 
-
-![image](https://user-images.githubusercontent.com/20278752/116826474-17eb4d80-ab8c-11eb-81c8-53f570301a17.png)
 
