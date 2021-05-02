@@ -89,7 +89,7 @@ pip installs:
 Dataset used is from public-domain – this domain is from a research institute whom have a collection of the largest dataset available for traffic-sign images.
 https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/published-archive.html 
 
-### use wget or curl (enter commands into Terminal (Jupyter Environment)
+use wget or curl (enter commands into Terminal (Jupyter Environment)
 - wget https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/GTSRB_Final_Training_Images.zip
 - unzip GTSRB_Final_Training_Images.zip
 - mv GTSRB/Final_Training data/
