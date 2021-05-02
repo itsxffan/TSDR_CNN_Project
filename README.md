@@ -16,6 +16,11 @@ Open up the file path to where you stored the repository in terminal:
 -	mkdir Checkpoint
 -	mkdir GTRSB
 
+What the repository should look like: 
+
+![image](https://user-images.githubusercontent.com/20278752/116826617-d14a2300-ab8c-11eb-8ad4-06a6981c2585.png)
+![image](https://user-images.githubusercontent.com/20278752/116826620-d4451380-ab8c-11eb-8ae6-fa6263af66ad.png)
+
 
 /Checkpoint <- This folder or path (Set empty) will contain the saved model sessions, once each model architecture is trained the model architecture and specified parameters will be stored here as an index or checkpoint, which later on can be used to produce chart analysis.
 
@@ -32,7 +37,8 @@ Open up the file path to where you stored the repository in terminal:
 Traffic_Sign_Classification_LeNet_v1_ipynb <- This notebook file is main file constructed by author contains all data analysis, image pre-processing and evaluation.
 
 TrafficSignNames.csv <- File listing different traffic-sign names associated with their class ID.
-![image](https://user-images.githubusercontent.com/20278752/116826426-d5297580-ab8b-11eb-8c07-2b9078523640.png)
+
+
 
 # Step 2 – Environment Setup:
 Note: Due to hardware limitation the author was not run model training on local machine due to not having a powerful GPU. Training CNN models are computationally expensive hence why the author relied upon ‘Gradiant Paperspace’ machine learning platform. They offered a cloud hosted GPU machine. This machine provided all the prerequisite libraries for machine learning, those libraries that were missing the author manually installed those libraries through Jupyter environment terminal using ‘pip’ command. 
@@ -59,9 +65,6 @@ https://console.paperspace.com/saffan-a-private-workspace/notebook/rgkpcibe3wkhu
 
 For those who don’t have a powerful GPU ‘Gradient Paperspace’ ML platform could be used. Follow link above to launch notebook, you will need to create an account to run .
 
- 
-
- 
 
 Select Machine Instance:
 This is where you can select a GPU to use the author utilised the free-instance (Free GPU option) this is a machine that has an 8-core CPU (Quadro M4000 processor) with GPU support and 30 GB RAM. Time limit for free-GPU’s is up to 6 hours long. So after 6 hours the machine will shut down and notebook will stop working hence why author had to always restart machine every 6 hours limiting the tests that could be carried out for author.
