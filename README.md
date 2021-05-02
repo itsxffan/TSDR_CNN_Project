@@ -36,6 +36,8 @@ What the repository should look like:
 
 Traffic_Sign_Classification_LeNet_v1_ipynb <- This notebook file is main file constructed by author contains all data analysis, image pre-processing and evaluation.
 
+Traffic_Sign_Classification_LeNet_v1_ipynb <- **In case the file cannot be loaded, simply download the HTML file and view the notebook.**
+
 TrafficSignNames.csv <- File listing different traffic-sign names associated with their class ID.
 
 
