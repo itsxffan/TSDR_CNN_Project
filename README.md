@@ -140,12 +140,12 @@ data
 ```
  
 
-Pipeline Framework:
+## Pipeline Framework:
 All of the Python classes and methods for building pipelines use TensorFlow and Scikit-Pipeline Learn's system which can be found in the pipeline folder. To test various pre-processing and network architecture scenarios, I used pipelines extensively.
 
 After that, a network is transformed into an estimator that can be used with Scikit-Pipeline Learn's object. I also have a helper class that can be used to convert any functions into a transformer that can be used in a Pipeline object.
 
-Step 4 – Final Disclaimer:
+# Step 4 – Final Disclaimer:
 Once all above steps have been completed you can simply open up the ‘Traffic_Sign_Classification_LeNet_v1.ipynb’ file and run the code segments top to bottom in order.
 Despite using a cloud hosted GPU model, training models are again computationally expensive they can often take 30 min to 6 hrs + each to run of course dependent on how complex the model becomes (more parameters, more epochs) all require more time. 
 
